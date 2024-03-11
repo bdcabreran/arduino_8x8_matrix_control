@@ -40,25 +40,25 @@ The following outlines how each pin on the Arduino is connected to the correspon
 
 ### Column Pins:
 
-- `Arduino Pin 2`  -> Matrix Pin X1 (Datasheet Pin 13)
-- `Arduino Pin 3`  -> Matrix Pin X2 (Datasheet Pin 3)
-- `Arduino Pin 4`  -> Matrix Pin X3 (Datasheet Pin 4)
-- `Arduino Pin 5`  -> Matrix Pin X4 (Datasheet Pin 10)
-- `Arduino Pin 6`  -> Matrix Pin X5 (Datasheet Pin 6)
-- `Arduino Pin 7`  -> Matrix Pin X6 (Datasheet Pin 11)
-- `Arduino Pin 8`  -> Matrix Pin X7 (Datasheet Pin 15)
-- `Arduino Pin 9`  -> Matrix Pin X8 (Datasheet Pin 16)
+- `Arduino Pin 2`  -> Matrix col 1 (Datasheet Pin 13)
+- `Arduino Pin 3`  -> Matrix col 2 (Datasheet Pin 3)
+- `Arduino Pin 4`  -> Matrix col 3 (Datasheet Pin 4)
+- `Arduino Pin 5`  -> Matrix col 4 (Datasheet Pin 10)
+- `Arduino Pin 6`  -> Matrix col 5 (Datasheet Pin 6)
+- `Arduino Pin 7`  -> Matrix col 6 (Datasheet Pin 11)
+- `Arduino Pin 8`  -> Matrix col 7 (Datasheet Pin 15)
+- `Arduino Pin 9`  -> Matrix col 8 (Datasheet Pin 16)
 
 ### Row Pins:
 
-- `Arduino Pin 10` -> Matrix Pin Y1 (Datasheet Pin 9)
-- `Arduino Pin 11` -> Matrix Pin Y2 (Datasheet Pin 14)
-- `Arduino Pin 12` -> Matrix Pin Y3 (Datasheet Pin 8)
-- `Arduino Pin 13` -> Matrix Pin Y4 (Datasheet Pin 12)
-- `Arduino Pin 14` -> Matrix Pin Y5 (Datasheet Pin 1)
-- `Arduino Pin 15` -> Matrix Pin Y6 (Datasheet Pin 7)
-- `Arduino Pin 16` -> Matrix Pin Y7 (Datasheet Pin 2)
-- `Arduino Pin 17` -> Matrix Pin Y8 (Datasheet Pin 5)
+- `Arduino Pin 10` -> Matrix row 1 (Datasheet Pin 9)
+- `Arduino Pin 11` -> Matrix row 2 (Datasheet Pin 14)
+- `Arduino Pin 12` -> Matrix row 3 (Datasheet Pin 8)
+- `Arduino Pin 13` -> Matrix row 4 (Datasheet Pin 12)
+- `Arduino Pin 14` -> Matrix row 5 (Datasheet Pin 1)
+- `Arduino Pin 15` -> Matrix row 6 (Datasheet Pin 7)
+- `Arduino Pin 16` -> Matrix row 7 (Datasheet Pin 2)
+- `Arduino Pin 17` -> Matrix row 8 (Datasheet Pin 5)
 
 **Notes:**
 
@@ -94,6 +94,13 @@ The following outlines how each pin on the Arduino is connected to the correspon
 - **New Patterns:** Expand the program with new LED matrix patterns by defining additional byte arrays and updating the pattern array.
 - **Adjusting Debounce and Interval:** Fine-tune the button's debounce behavior and the pattern switching interval by modifying the respective variables.
 
+
+### Images 
+<img src="LED_Matrix/img/Screenshot from 2024-03-11 18-08-42.png" width="300">
+<img src="LED_Matrix/img/Screenshot from 2024-03-11 18-08-47.png" width="300">
+<img src="LED_Matrix/img/Screenshot from 2024-03-11 18-08-55.png" width="300">
+
+
 ## Contributing
 
 Your contributions to improve the project are welcome. Please use GitHub to submit pull requests or issues for bugs, features, or enhancements.
@@ -109,3 +116,4 @@ The project is released under the MIT License, facilitating open and permissive 
 - **GitHub:** https://github.com/bdcabreran
 - **LinkedIn:** https://www.linkedin.com/in/bayron-cabrera-517821124/
 - **Email:** bayron.nanez@gmail.com
+
