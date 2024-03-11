@@ -1,0 +1,40 @@
+# PlatformIO Project Specific #
+################################
+.pio/
+.pioenvs/
+.piolibdeps/
+.vscode/.pio/
+.vscode/ipch/
+__pycache__/
+.spyproject/
+.history/
+platformio.ini
+
+# Compiled binary and hex files
+.pio/build/
+*.elf
+*.bin
+*.hex
+
+# Libraries
+lib/
+
+# Source files which might be generated or user-specific
+src/*.tmp
+src/*.log
+
+# Backup files
+*.bak
+
+# Other files and folders to ignore
+.tmp_versions/
+.DS_Store
+Thumbs.db
+*.swp
+*.backup
+
+# Environment variables and sensitive information
+*.ini
+
+# Ignore specific configuration files that may contain sensitive information
+.vscode/settings.json
