@@ -1,0 +1,39 @@
+{
+    "name": "Arduino Development",
+    "build": {
+        "dockerfile": "../Dockerfile",
+        "context": ".."
+    },
+
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash",
+                "terminal.integrated.shell.linux": "/bin/bash"
+            },
+            "extensions": [
+                "aaron-bond.better-comments", // Create more human-friendly comments in your code
+                "ms-python.python", // Python support, essential for Yocto's bitbake recipes and classes
+                "ms-vscode.cpptools", // C++ tools, useful for any C/C++ development
+                "eamodio.gitlens", // Enhanced Git support
+                "zixuanwang.linkerscript", // For editing linker scripts, might be handy for embedded development
+                "pkief.vscode-material-icon-theme", // vscode-icons, provides rich icons set for Visual Studio Code
+                "mhutchie.git-graph", // Visualize your Git repositories in graph format
+                "streetsidesoftware.code-spell-checker", // Spell check your code to avoid typos
+                "CoenraadS.bracket-pair-colorizer-2", // Colorize matching brackets, enhances code readability
+                "vsciot-vscode.vscode-arduino",
+                "platformio.platformio-ide"
+            ]
+        }
+    },
+
+    "forwardPorts": [],
+    "postCreateCommand": "pio update",
+    "mounts": [
+        "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"
+    ],
+    "remoteUser": "root",
+    "runArgs": [
+        "--device=/dev/ttyUSB0:/dev/ttyUSB0"
+    ]
+}
