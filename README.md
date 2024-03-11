@@ -32,7 +32,7 @@ A Dockerfile along with a `.devcontainer` configuration for VSCode is provided, 
 
 1. **Arduino and 8x8 LED Matrix Connection:** Wire the 8x8 LED matrix and a pushbutton to your Arduino board according to the pin mappings specified in the program.
 
-![alt text](LED_Matrix/img/image.png)
+<img src="LED_Matrix/img/image.png" width="400">
 
 ## Connection Diagram: Arduino to 8x8 LED Matrix
 
